@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Navbar, Sidebar, Footer } from "./components";
-import { Home, About } from "./pages";
+import { Home, About, Error } from "./pages";
 
 function App() {
   return (
@@ -14,6 +14,9 @@ function App() {
         </Route>
         <Route path="/about">
           <About />
+        </Route>
+        <Route path="*">
+          <Error />
         </Route>
       </Switch>
       <Footer />
