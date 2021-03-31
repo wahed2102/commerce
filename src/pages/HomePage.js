@@ -1,10 +1,14 @@
 import React from "react";
+import { FeaturedProducts, Hero, Services, Contact } from "../components";
 
 const HomePage = () => {
   return (
-    <div>
-      <h4>Home Page</h4>
-    </div>
+    <main>
+      <Hero />
+      <FeaturedProducts />
+      <Services />
+      <Contact />
+    </main>
   );
 };
 
