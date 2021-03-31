@@ -6,6 +6,7 @@ import FeaturedProducts from "./FeaturedProducts";
 import Hero from "./Hero";
 import Services from "./Services";
 import Contact from "./Contact";
+import Product from "./Product";
 export {
   Navbar,
   Footer,
@@ -15,4 +16,5 @@ export {
   Hero,
   Services,
   Contact,
+  Product,
 };
