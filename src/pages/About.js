@@ -12,17 +12,16 @@ const About = () => {
         <article>
           <div className="title">
             <h2>our story</h2>
-            <div className="underline">
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta
-                qui illum illo obcaecati odit! Tempora temporibus ea enim dolore
-                dignissimos? Quos ex ratione illum consequatur neque rem harum.
-                Fuga molestias praesentium exercitationem neque distinctio, ut
-                quae voluptatum beatae maiores numquam ratione a veniam, esse
-                nostrum, incidunt aliquid saepe nihil. Ab?
-              </p>
-            </div>
+            <div className="underline"></div>
           </div>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta qui
+            illum illo obcaecati odit! Tempora temporibus ea enim dolore
+            dignissimos? Quos ex ratione illum consequatur neque rem harum. Fuga
+            molestias praesentium exercitationem neque distinctio, ut quae
+            voluptatum beatae maiores numquam ratione a veniam, esse nostrum,
+            incidunt aliquid saepe nihil. Ab?
+          </p>
         </article>
       </Wrapper>
     </main>
