@@ -12,6 +12,9 @@ import AddToCart from "./AddToCart";
 import Stars from "./Stars";
 import Loading from "./Loading";
 import Error from "./Error";
+import Filters from "./Filters";
+import Sort from "./Sort";
+import ProductList from "./ProductList";
 export {
   Navbar,
   Footer,
@@ -27,4 +30,7 @@ export {
   Stars,
   Loading,
   Error,
+  Filters,
+  Sort,
+  ProductList,
 };
