@@ -1,7 +1,15 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Navbar, Sidebar, Footer } from "./components";
-import { Home, About, Error, Checkout, SingleProduct, Products } from "./pages";
+import {
+  Home,
+  About,
+  Error,
+  Checkout,
+  SingleProduct,
+  Products,
+  Cart,
+} from "./pages";
 
 function App() {
   return (
@@ -20,6 +28,9 @@ function App() {
         </Route>
         <Route exact path="/products">
           <Products />
+        </Route>
+        <Route path="/cart">
+          <Cart />
         </Route>
         <Route path="/products/:id" children={<SingleProduct />} />
         <Route path="*">
