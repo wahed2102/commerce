@@ -14,7 +14,6 @@ const filter_reducer = (state, action) => {
     if (action.payload !== undefined) {
       let Price = action.payload.map((p) => p.price);
       let maxPrice = Math.max(...Price);
-      let minPrice = Math.min(...Price);
       return {
         ...state,
         all_products: [...action.payload],
@@ -61,7 +60,7 @@ const filter_reducer = (state, action) => {
   }
   if (action.type === FILTER_PRODUCTS) {
     const { all_products } = state;
-    const { text, category, company, color, price, shipping } = state.filters;
+    const { text, category, company, color, price } = state.filters;
 
     let tempProducts = [...all_products];
 

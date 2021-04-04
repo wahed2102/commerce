@@ -6,6 +6,7 @@ import SingleProduct from "./SingleProductPage";
 import Products from "./ProductsPage";
 import Cart from "./CartPage";
 import PrivateRoute from "./PrivateRoute";
+import AuthWrapper from "./AuthWrapper";
 
 export {
   Home,
@@ -16,4 +17,5 @@ export {
   Products,
   Cart,
   PrivateRoute,
+  AuthWrapper,
 };
