@@ -13,8 +13,8 @@ import { UserProvider } from "./context/user_context";
 
 ReactDOM.render(
   <Auth0Provider
-    domain="wahed-test.us.auth0.com"
-    clientId="JAkFB9ADtGRzDVLU0s3fAjwwI5eZpYv0"
+    domain={process.env.REACT_APP_AUTH_DOMAIN}
+    clientId={process.env.REACT_APP_AUTH_CLIENT_ID}
     redirectUri={window.location.origin}
     cacheLocation="localstorage"
   >
